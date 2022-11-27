@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: srv-saudacoes
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+srv-saudacoes:
+  saudacao: "Cia"
+  default-value: "Mondo"
